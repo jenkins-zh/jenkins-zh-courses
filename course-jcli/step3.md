@@ -2,7 +2,7 @@
 
 `jcli config gen -i=false > ~/.jenkins-cli.yaml`{{execute}}
 
-然后，利用命令 `vim ~/.jenkins-cli.yaml`{{execute}} 把配置文件中的 `token` 修改为 `admin`：
+然后，利用命令 `sed -i "s%token:.*%token: admin%g" ~/.jenkins-cli.yaml`{{execute}} 把配置文件中的 `token` 修改为 `admin`：
 
 ```
 current: yourServer
