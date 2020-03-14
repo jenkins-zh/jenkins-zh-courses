@@ -1,0 +1,9 @@
+{
+  "courses": [
+    {
+      "title": "Learn how to use jcli",
+      "description": "Learn how to use jcli",
+      "id": "course-jcli"
+    }
+  ]
+}

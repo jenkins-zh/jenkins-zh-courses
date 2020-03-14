@@ -1,0 +1,40 @@
+{
+  "title": "Learn how to use jcli",
+  "description": "Learn how to use jcli to speed up your daily work",
+  "details": {
+    "steps": [
+      {
+        "title": "步骤1 - 下载",
+        "text": "step1.md"
+      },
+      {
+        "title": "步骤2 - 启动 Jenkins",
+        "text": "step2.md"
+      },
+      {
+        "title": "步骤3 - 配置",
+        "text": "step3.md"
+      },
+      {
+        "title": "步骤4 - 安装插件",
+        "text": "step4.md"
+      },
+      {
+        "title": "步骤5 - 创建一个流水线",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
