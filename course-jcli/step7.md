@@ -13,7 +13,7 @@ pipeline {
     agent any
 
     stages {
-        stage('create a simple go project ') {
+        stage('create a simple go project') {
             steps {
                 sh label: '', script: '''cat <<_EOF>hello.go
 package main
@@ -29,7 +29,7 @@ _EOF'''
                 sh label: '', script: 'go build hello.go'
             }
         }
-        stage('run the executable file') {
+        stage('run the executable file created by go build') {
             steps {
                 sh label: '', script: './hello'
             }
