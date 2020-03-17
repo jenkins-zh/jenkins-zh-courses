@@ -1,8 +1,8 @@
 {
   "courses": [
     {
-      "title": "Learn how to use jcli",
-      "description": "Learn how to use jcli",
+      "title": "学习如何使用 Jenkins CLI",
+      "description": "学习如何通过 jcli 提高你的工作效率",
       "id": "course-jcli"
     }
   ]
