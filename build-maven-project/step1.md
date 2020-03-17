@@ -8,9 +8,9 @@
 相关插件（git、pipeline）和工具（Maven）已经预先配置好；
 8080 端口用来打开 web dashboard，50000 端口用来和其它 Jenkins agent 通信。
 
-#### 加载 Dashboard
+#### 打开 Dashboard
 
-你可以通过下面 URL 加载 Jenkins Dashboard：`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
+你可以通过下面 URL 打开 Jenkins Dashboard：`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
 
 用户名是：`admin`{{copy}}，密码是：`9YxwvCOUPML8onXF`{{copy}}
 

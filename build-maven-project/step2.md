@@ -1,4 +1,4 @@
-#### 创建 Job
+#### 创建任务
 
 点击`新建任务`或`创建一个新任务`，
 输入任务名称（如：maven-pipeline-demo），
@@ -43,9 +43,9 @@ pipeline {
 }
 ```
 
-该 Pipeline 下的 `stages` 包括一个 `stage('Build')`，这个 `stage` 的 `steps` 中会从 github 下载代码，然后使用 maven 构建项目，
+该 Pipeline 下的 `stages` 包括一个 `stage('Build')`，这个 `stage` 的 `steps` 中会从 GitHub 下载代码，然后使用 maven 构建项目，
 如果构建成功的话，会运行 `post` 区域的指令，包括发布 junit 报告以及存档 artifact。
 
 其中，Maven 已事先在`系统管理-->全局工具配置`中配置好。
 
-点击 `保存` 按钮，Job 就创建成功了。
+点击 `保存` 按钮，任务就创建成功了。
