@@ -1,6 +1,6 @@
 {
-  "title": "Learn how to use jcli",
-  "description": "Learn how to use jcli to speed up your daily work",
+  "title": "学习如何使用 Jenkins CLI",
+  "description": "学习如何通过 jcli 提高你的工作效率",
   "details": {
     "steps": [
       {
@@ -32,9 +32,13 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32m你的交互式 Bash 终端\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu",
+    "port": "8080"
   }
 }
