@@ -1,8 +1,8 @@
 {
   "title": "使用 Jenkins 构建 Maven 项目",
   "description": "使用 Jenkins Pipeline 构建 Maven 项目",
-  "difficulty": "Beginner",
-  "time": "10-15 minutes",
+  "difficulty": "初学者",
+  "time": "10-15 分钟",
   "details": {
     "steps": [
       {
