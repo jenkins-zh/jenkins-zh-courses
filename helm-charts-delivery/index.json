@@ -38,6 +38,6 @@
   },
   "backend": {
     "imageid": "kubernetes",
-    "port": "8080"
+    "port": "30021"
   }
 }

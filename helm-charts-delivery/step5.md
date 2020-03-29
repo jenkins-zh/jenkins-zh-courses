@@ -4,7 +4,7 @@
 
 然后，添加脚本。执行下面的命令后会弹出脚本编辑框：
 
-`jcli job edit hello-pipeline`{{execute}}
+`jcli job edit hello-pipeline https://raw.githubusercontent.com/devops-ws/learn-pipeline-go/master/Jenkinsfile`{{execute}}
 
 在弹出的编辑器中输入下面的流水线示例脚本：
 
