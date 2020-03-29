@@ -1,0 +1,43 @@
+{
+  "title": "通过 helm charts 交付制品",
+  "description": "学习在 Jenkins 在交付 helm charts",
+  "details": {
+    "steps": [
+      {
+        "title": "步骤1 - 启动 Jenkins",
+        "text": "step1.md"
+      },
+      {
+        "title": "步骤2 - 启动 ChartMuseum",
+        "text": "step2.md"
+      },
+      {
+        "title": "步骤3 - 配置",
+        "text": "step3.md"
+      },
+      {
+        "title": "步骤4 - 安装插件",
+        "text": "step4.md"
+      },
+      {
+        "title": "步骤5 - 创建一个流水线",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboard": "Dashboard"
+  },
+  "backend": {
+    "imageid": "kubernetes",
+    "port": "8080"
+  }
+}

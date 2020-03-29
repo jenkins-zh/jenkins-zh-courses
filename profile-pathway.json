@@ -4,6 +4,11 @@
       "title": "Learn how to use jcli",
       "description": "Learn how to use jcli",
       "id": "course-jcli"
+    },
+    {
+      "title": "通过 helm charts 交付制品",
+      "description": "学习在 Jenkins 在交付 helm charts",
+      "id": "helm-charts-delivery"
     }
   ]
 }
