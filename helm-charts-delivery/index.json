@@ -1,27 +1,23 @@
 {
   "title": "通过 helm charts 交付制品",
-  "description": "学习在 Jenkins 在交付 helm charts",
+  "description": "学习在 Jenkins 中交付 helm charts",
   "details": {
     "steps": [
       {
-        "title": "步骤1 - 启动 Jenkins",
+        "title": "步骤1 - 安装 Jenkins",
         "text": "step1.md"
       },
       {
-        "title": "步骤2 - 启动 ChartMuseum",
+        "title": "步骤2 - 安装 Jenkins CLI",
         "text": "step2.md"
       },
       {
-        "title": "步骤3 - 配置",
+        "title": "步骤3 - 安装 ChartMuseum",
         "text": "step3.md"
       },
       {
-        "title": "步骤4 - 安装插件",
+        "title": "步骤4 - 创建并执行流水线",
         "text": "step4.md"
-      },
-      {
-        "title": "步骤5 - 创建一个流水线",
-        "text": "step5.md"
       }
     ],
     "intro": {

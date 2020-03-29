@@ -22,6 +22,8 @@ helm install jenkins stable/jenkins \
     --set master.serviceType=NodePort
 ```{{execute}}
 
+等待 Jenkins 启动：`kubectl get pod -w`{{execute}}
+
 通过下面的命令，查看 Jenkins 用户 `admin` 的密码：
 ```
 printf $(kubectl get secret --namespace default jenkins -o jsonpath="{.data.jenkins-admin-password}" | base64 --decode);echo
