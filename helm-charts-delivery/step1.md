@@ -29,4 +29,4 @@ helm install jenkins stable/jenkins \
 printf $(kubectl get secret --namespace default jenkins -o jsonpath="{.data.jenkins-admin-password}" | base64 --decode);echo
 ```{{execute}}
 
-我们可以打开 Jenkins 的管理界面，`https://[[HOST_SUBDOMAIN]]-30021-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
+我们可以打开 Jenkins 的管理界面，`https://[[HOST_SUBDOMAIN]]-30021-[[KATACODA_HOST]].environments.katacoda.com/`

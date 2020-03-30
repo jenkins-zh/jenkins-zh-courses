@@ -30,7 +30,16 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboard": "Dashboard"
+    "dashboards": [
+      {
+        "name": "Jenkins",
+        "port": 30021
+      },
+      {
+        "name": "ChartMuseum",
+        "port": 32132
+      }
+    ]
   },
   "backend": {
     "imageid": "kubernetes",
