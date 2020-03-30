@@ -4,9 +4,12 @@
 
 然后，利用命令添加脚本：
 
-`jcli job edit hello-pipeline --url https://raw.githubusercontent.com/devops-ws/learn-pipeline-go/master/Jenkinsfile`{{execute}}
+```
+jcli job edit hello-pipeline --url \
+    https://raw.githubusercontent.com/devops-ws/learn-pipeline-go/master/Jenkinsfile
+```{{execute}}
 
-或者，手动添加流水线脚本`https://raw.githubusercontent.com/devops-ws/learn-pipeline-go/master/Jenkinsfile`{{open}}
+或者，手动添加流水线脚本 `https://raw.githubusercontent.com/devops-ws/learn-pipeline-go/master/Jenkinsfile`{{open}}
 
 执行任务 `jcli job build hello-pipeline -b`{{execute}}
 
