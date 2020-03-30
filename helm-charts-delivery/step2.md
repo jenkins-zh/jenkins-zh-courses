@@ -12,6 +12,6 @@
 
 `jcli config gen -i=false > ~/.jenkins-cli.yaml`{{execute}}
 
-打开 Jenkins 的用户界面 [https://2886795314-30021-elsy04.environments.katacoda.com/user/admin/configure](https://2886795314-30021-elsy04.environments.katacoda.com/user/admin/configure)
+打开 Jenkins 的用户界面 https://[[HOST_SUBDOMAIN]]-30021-[[KATACODA_HOST]].environments.katacoda.com/user/admin/configure
 
 把生成的 Token 填入到客户端的配置文件中 `jcli config edit`{{execute}}

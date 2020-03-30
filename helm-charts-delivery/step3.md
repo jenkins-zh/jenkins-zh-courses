@@ -11,4 +11,4 @@ helm install chartmuseum stable/chartmuseum \
 
 查看是否启动：`kubectl get pod | grep chartmuseum`{{execute}}
 
-访问地址为 [https://[[HOST_SUBDOMAIN]]-30021-[[KATACODA_HOST]].environments.katacoda.com/](https://[[HOST_SUBDOMAIN]]-30021-[[KATACODA_HOST]].environments.katacoda.com/)
+访问地址为 https://[[HOST_SUBDOMAIN]]-32132-[[KATACODA_HOST]].environments.katacoda.com/
