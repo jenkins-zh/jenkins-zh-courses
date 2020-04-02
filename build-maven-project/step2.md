@@ -4,9 +4,8 @@
 输入任务名称（如：maven-pipeline-demo），
 类型选择`流水线`，然后点击`确定`按钮。
 
-任务配置中，`流水线`区域`定义`下拉框，选择 `Pipeline script`，
-脚本区域右上角的 `try Sample Pipeline` 下拉框选择 `GitHub + Maven`，
-可以看到脚本区域就被如下 Pipeline 填充：
+任务配置中，`流水线`区域`定义`下拉框，选择 `Pipeline script`，拷贝下面的代码片段，
+或者在脚本区域右上角的 `try Sample Pipeline` 下拉框选择 `GitHub + Maven`：
 
 ```
 pipeline {
