@@ -7,3 +7,5 @@
 下面的命令可以查看 Jenkins 的启动日志的：
 
 `tail -f jenkins.log`{{execute}}
+
+或者，直接打开 Jenkins 的界面：https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/jenkins
