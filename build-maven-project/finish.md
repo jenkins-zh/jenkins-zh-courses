@@ -1,0 +1,1 @@
+恭喜您，您已基本了解如何使用 Jenkins Pipeline 构建 Maven 项目～
