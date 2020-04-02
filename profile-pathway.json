@@ -4,6 +4,11 @@
       "title": "Learn how to use jcli",
       "description": "Learn how to use jcli",
       "id": "course-jcli"
+    },
+    {
+      "title": "使用 Jenkins 构建 Maven 项目",
+      "description": "使用 Jenkins Pipeline 构建 Maven 项目",
+      "id": "build-maven-project"
     }
   ]
 }
