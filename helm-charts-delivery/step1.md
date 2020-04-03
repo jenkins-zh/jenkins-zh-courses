@@ -1,3 +1,6 @@
+启动 master 节点 `kubeadm init --kubernetes-version $(kubeadm version -o short)`{{execute HOST1}}
+配置 node 节点 `kubeadm join`{{execute HOST2}}
+
 首先，安装 [Helm3](https://helm.sh/)，准备后面安装 Jenkins Chart：
 
 ```
