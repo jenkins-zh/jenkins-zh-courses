@@ -42,7 +42,7 @@
     ]
   },
   "backend": {
-    "imageid": "kubernetes",
+    "imageid": "kubernetes-cluster",
     "port": "30021"
   }
 }
