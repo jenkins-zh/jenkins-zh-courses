@@ -2,4 +2,4 @@
 
 接下来，我们会在 [Kubernetes](https://github.com/kubernetes/kubernetes) 平台上，以发布一个 [Golang](https://github.com/golang/go) 的[示例项目](https://github.com/devops-ws/learn-pipeline-go)完成各个步骤。
 
-1.1
+1.2
