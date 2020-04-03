@@ -6,6 +6,11 @@
       "id": "course-jcli"
     },
     {
+      "title": "使用 Jenkins 构建 Maven 项目",
+      "description": "使用 Jenkins Pipeline 构建 Maven 项目",
+      "id": "build-maven-project"
+    },
+    {
       "title": "通过 helm charts 交付制品",
       "description": "学习在 Jenkins 中交付 helm charts",
       "id": "helm-charts-delivery"
