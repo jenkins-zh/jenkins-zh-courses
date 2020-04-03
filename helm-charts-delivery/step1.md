@@ -1,19 +1,3 @@
-启动 master 节点 `kubeadm init --kubernetes-version $(kubeadm version -o short)`{{execute HOST1}}
-```
-mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
-ifconfig
-```{{execute HOST1}}
-
-```
-mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
-ifconfig
-```{{execute HOST2}}
-配置 node 节点 `kubeadm join`{{execute HOST2}}
-
 首先，安装 [Helm3](https://helm.sh/)，准备后面安装 Jenkins Chart：
 
 ```
@@ -31,7 +15,7 @@ Kubernetes 的启动，可能需要花费一些时间，执行下面的命令，
 helm repo add stable https://kubernetes-charts.storage.googleapis.com
 helm install jenkins stable/jenkins \
     --set master.image=jenkinszh/jenkins-k8s \
-    --set master.tag=2.204.5 \
+    --set master.tag=2.222.1 \
     --set master.imagePullPolicy=IfNotPresent \
     --set persistence.enabled=false \
     --set master.nodePort=30021 \
